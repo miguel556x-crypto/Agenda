@@ -95,7 +95,7 @@ export const LoginForm = ({ irARegistro }) => {
             </svg>
           </div>
           <h2 className="text-2xl font-black text-slate-900 tracking-tight">Iniciar Sesión</h2>
-          <p className="text-sm text-slate-500 mt-1">Ingresa a tu cuenta de AgendaPro</p>
+          <p className="text-sm text-slate-500 mt-1">Ingresa a tu cuenta de Agenda ADSO</p>
         </div>
 
         {mensajeGeneral && (

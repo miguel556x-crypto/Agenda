@@ -27,7 +27,7 @@ export const Navbar = () => {
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-lg font-extrabold tracking-tight text-slate-900">Agenda<span className="text-indigo-600">Pro</span></span>
+                <span className="text-lg font-extrabold tracking-tight text-slate-900">Agenda <span className="text-indigo-600">ADSO</span></span>
                 <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200/60">
                   Citas
                 </span>
