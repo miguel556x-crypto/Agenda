@@ -31,8 +31,8 @@ export const FormularioCita = ({ onAgregarCita, onCancelar }) => {
       err.correo = "Formato de correo no válido";
     }
     if (!formData.servicio.trim()) err.servicio = "El servicio a solicitar es obligatorio";
-    if (!formData.fecha) err.fecha = "Seleccione una fecha";
-    if (!formData.hora) err.hora = "Indique un horario (ej. 10:00 AM)";
+    if (!formData.fecha.trim()) err.fecha = "Seleccione una fecha";
+    if (!formData.hora.trim()) err.hora = "Indique un horario (ej. 10:00 AM)";
     if (!formData.profesional.trim()) err.profesional = "El profesional responsable es obligatorio";
 
     setErrores(err);

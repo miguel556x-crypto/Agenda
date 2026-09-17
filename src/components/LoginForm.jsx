@@ -22,7 +22,7 @@ export const LoginForm = ({ irARegistro }) => {
       err.correo = "Formato de correo no válido";
     }
 
-    if (!password) {
+    if (!password.trim()) {
       err.password = "La contraseña es obligatoria";
     }
 
@@ -186,7 +186,7 @@ export const LoginForm = ({ irARegistro }) => {
             {cargandoEstado ? (
               <>
                 <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
-                <span>Iniciando sesión...</span>
+                <span>Ingresando...</span>
               </>
             ) : (
               <>

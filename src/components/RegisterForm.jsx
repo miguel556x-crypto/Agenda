@@ -27,13 +27,13 @@ export const RegisterForm = ({ irALogin }) => {
       err.correo = "Formato de correo inválido";
     }
 
-    if (!password) {
+    if (!password.trim()) {
       err.password = "La contraseña es obligatoria";
-    } else if (password.length < 4) {
-      err.password = "Mínimo 4 caracteres";
+    } else if (password.trim().length < 6) {
+      err.password = "La contraseña debe tener al menos 6 caracteres";
     }
 
-    if (!confirmarPassword) {
+    if (!confirmarPassword.trim()) {
       err.confirmarPassword = "Debe confirmar la contraseña";
     } else if (password !== confirmarPassword) {
       err.confirmarPassword = "Las contraseñas no coinciden";

@@ -29,8 +29,8 @@ export const CitasPage = () => {
 
   const verificarPermiso = () => {
     if (!esAdmin) {
-      setMensajePermiso("No tienes permisos para realizar esta acción.");
-      setTimeout(() => setMensajePermiso(""), 3500);
+      setMensajePermiso("Acceso denegado: No tienes permisos de Administrador para realizar esta acción.");
+      setTimeout(() => setMensajePermiso(""), 4000);
       return false;
     }
     return true;
