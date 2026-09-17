@@ -1,0 +1,40 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Administrador General",
+      "correo": "admin@correo.com",
+      "password": "123",
+      "rol": "ADMIN"
+    },
+    {
+      "id": 2,
+      "nombre": "Juan P\u00e9rez",
+      "correo": "juan@correo.com",
+      "password": "123",
+      "rol": "USUARIO"
+    }
+  ],
+  "citas": [
+    {
+      "id": 1,
+      "cliente": "Juan P\u00e9rez",
+      "correo": "juan@correo.com",
+      "servicio": "Corte de Cabello",
+      "fecha": "2026-09-20",
+      "hora": "10:00 AM",
+      "estado": "Pendiente",
+      "profesional": "Carlos Ruiz"
+    },
+    {
+      "id": 2,
+      "cliente": "Mar\u00eda L\u00f3pez",
+      "correo": "maria@correo.com",
+      "servicio": "Manicura Pro",
+      "fecha": "2026-09-21",
+      "hora": "11:30 AM",
+      "estado": "Confirmada",
+      "profesional": "Ana G\u00f3mez"
+    }
+  ]
+}
